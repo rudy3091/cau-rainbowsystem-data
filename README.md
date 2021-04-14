@@ -23,7 +23,7 @@ listening on port 8080
 
 #### Response
 
-```json
+```
 [
   {
     id: number,
