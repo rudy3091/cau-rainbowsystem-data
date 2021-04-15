@@ -1,7 +1,6 @@
 import request from "supertest";
 import app from "../src";
 
-// 데이터 크기가 너무 커서 timeout
 describe("GET /api/rainbow", () => {
 	test("should return every data", (done) => {
 		request(app)

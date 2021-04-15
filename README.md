@@ -15,7 +15,7 @@ listening on port 8080
 
 ## endpoints
 
-### `GET /api/rainbow?rows={row_num}&page={page_num)`
+### `GET /api/rainbow?rows={row_num}&page={page_num}`
 
 - **비교과프로그램 데이터를 페이지로 나눠 Array 형식으로 반환**
 - row_num: 한 페이지에 들어갈 데이터의 수
@@ -53,7 +53,7 @@ listening on port 8080
         date: string
       }
     }
-    available: string
+    available: string // "신청가능" | "신청마감" | "교육종료" | "교육중" | "none";
   },
 ]
 ```
