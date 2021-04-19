@@ -1,6 +1,6 @@
 import { DateTime } from "@type/datacommon";
 
-export type Position = "정규직" | "인턴" | "계약직";
+export type Position = "정규직" | "인턴" | "계약직" | string;
 
 export type Chunk = {
 	company: string;

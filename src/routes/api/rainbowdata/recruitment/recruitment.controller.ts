@@ -1,6 +1,6 @@
 import express from "express";
-import data from "@data/bigyogwadata.json";
-import { Chunk } from "@type/rainbow";
+import data from "@data/recruitment/recruitment.json";
+import { Chunk } from "@type/recruit";
 
 const controller = {
 	findAll(req: express.Request, res: express.Response) {

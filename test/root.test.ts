@@ -22,3 +22,14 @@ describe("GET /api", () => {
 			});
 	});
 });
+
+describe("GET /api/rainbow", () => {
+	test("should return string", (done) => {
+		request(app)
+			.get("/api/rainbow")
+			.then((res) => {
+				expect(res.text).toBe("rainbowsystem data api operational");
+				done();
+			});
+	});
+});
