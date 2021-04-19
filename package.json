@@ -6,8 +6,9 @@
   "scripts": {
     "clean:data": "rm dist/data/chunk*",
     "clean": "rm -rf dist",
-    "copy:data": "cp src/data/bigyogwadata.json dist/data/bigyogwadata.json",
-    "build": "swc src -d dist -C module.type=commonjs && npm run copy:data",
+    "copy:data1": "cp src/data/extracurricular/*.json dist/data/extracurricular/",
+    "copy:data2": "cp src/data/recruitment/*.json dist/data/recruitment/",
+    "build": "swc src -d dist -C module.type=commonjs && npm run copy:data1 && npm run copy:data2",
     "start:data": "npm run build && node dist/scripts/json-manip.js",
     "start:dev": "nodemon --watch src --delay 0.5 --exec ts-node -r tsconfig-paths/register src/index.ts",
     "start": "npm run build && node dist/index.js",
