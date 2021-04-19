@@ -1,13 +1,4 @@
-export type DateTime = {
-	year: string;
-	month: string;
-	date: string;
-}
-
-export type DateDue = {
-	from: DateTime;
-	to: DateTime;
-}
+import { DateDue } from "@type/datacommon";
 
 export type AvailableState = "신청가능" | "신청마감" | "교육종료" | "교육중" | "none";
 

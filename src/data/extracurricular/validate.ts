@@ -1,4 +1,4 @@
-import { Chunk } from "@type/rainbow";
+import { Chunk } from "@type/excur";
 
 export const validateId = (chunk: Chunk) => {
 	if (typeof chunk.id !== "number") {

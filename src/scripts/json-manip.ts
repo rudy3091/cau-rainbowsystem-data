@@ -1,7 +1,7 @@
 import * as fs from "fs";
 import * as path from "path";
-import { Chunk } from "@type/rainbow";
-import data from "@data/bigyogwadata.json";
+import { Chunk } from "@type/excur";
+import data from "@data/extracurricular/extracurricular.json";
 
 // data.due.from.month 기준으로 슬라이스
 const slice = (data: Chunk[]): Chunk[][] => {

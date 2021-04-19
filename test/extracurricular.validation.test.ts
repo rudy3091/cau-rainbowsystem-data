@@ -1,5 +1,5 @@
-import * as validate from "../src/data/validate";
-import data from "../src/data/bigyogwadata.json";
+import * as validate from "../src/data/extracurricular/validate";
+import data from "../src/data/extracurricular/extracurricular.json";
 
 describe("validate function's", () => {
 	test("id validation is valid", () => {
@@ -178,7 +178,7 @@ describe("validate function's", () => {
 	});
 });
 
-describe("json data", () => {
+describe("extracurricular json data", () => {
 	test("is valid", () => {
 		expect(() => validate.default(data)).not.toThrowError();
 	});
