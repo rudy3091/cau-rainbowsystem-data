@@ -68,8 +68,8 @@ listening on port 8080
 
 ```
 [
-	company: string;
-	title: string;
+  company: string;
+  title: string;
   from: {
     year: string,
     month: string,
@@ -80,9 +80,9 @@ listening on port 8080
     month: string,
     date: string
   }
-	location: string; // "경기" | "서울" ...
-	position: string; // "정규직" | "인턴" | "계약직" | "정규직, 인턴" ...
-	category: string; // "전체" | "홍보" | "마케팅, 해외영업, 생산관리" ...
+  location: string; // "경기" | "서울" ...
+  position: string; // "정규직" | "인턴" | "계약직" | "정규직, 인턴" ...
+  category: string; // "전체" | "홍보" | "마케팅, 해외영업, 생산관리" ...
 ]
 ```
 
